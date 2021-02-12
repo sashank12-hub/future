@@ -29,7 +29,7 @@ const ghgh=await axios(`https://api.github.com/repos/${input}/${item.name}/conte
 
 
 
-history.push({  pathname: '/content', state: ghgh.data})
+history.push({  pathname: '/future/content', state: ghgh.data})
     }
     catch(err){
        // console.log(err)

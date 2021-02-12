@@ -12,8 +12,8 @@ const App = () => {
     
   <BrowserRouter>
   <Switch>
-  <Route exact path='/' component={Search}/>
-  <Route exact path='/content/' render ={(props) => <List {...props} />
+  <Route exact path='/future' component={Search}/>
+  <Route exact path='/future/content/' render ={(props) => <List {...props} />
   }/>
   </Switch>
   
